@@ -1,0 +1,19 @@
+body{
+	background-color:#3498DB ;
+}
+
+table{
+	background:#D6EAF8 ;
+	padding:10px;
+	border:solid 2px #2471A3 ;
+         text-align:center;
+       
+        margin: 0 auto;
+}
+
+td{
+	padding:5px 0;
+}
+h1,h2,h3,h4{
+     text-align:center;
+}

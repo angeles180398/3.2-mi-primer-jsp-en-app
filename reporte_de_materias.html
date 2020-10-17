@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="prueba.css" rel="stylesheet" type="text/css">
+<title>Documento sin título</title>
+
+</head>
+
+
+<body>
+<h1 style="text-align:center">Registro</h1>
+<form action="recoje_datos.jsp" method="get">
+
+  <table  width="40%">
+    <tr>
+      <td width="30%"><label for="ClaveHorario">Clave del Horario </label></td>
+      <td width="13%"><input type="text" name="ClaveHorario" id="ClaveHorario"></td>
+    </tr>
+    <tr>
+      <td><label for="ClaveMateria">Clave de la Materia </label></td>
+      <td><input type="text" name="ClaveMateria" id="ClaveMateria"></td>
+    </tr>
+    <tr>
+      <td><label for="Materia">Nombre de la Materia </label></td>
+      <td><input type="text" name="Materia" id="Materia"></td>
+    </tr>
+    <tr>
+      <td><label for="Carrera">Nombre de la Carrera</label></td>
+      <td><input type="text" name="Carrera" id="Carrera"></td>
+    </tr>
+    <tr>
+      <td> <label for="claveCarrera">Clave de la Carrera:</label></td>
+      <td><select name="claveCarrera" id="claveCarrera">
+        <option>ISX</option>
+        <option>TIC</option>
+        <option>IGE</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td><label for="Maestro">Nombre del Maestro (a): </label></td>
+      <td><input type="text" name="Maestro" id="Maestro"></td>
+    </tr>
+    <tr>
+      <td><label for="Periodo">Periodo</label></td>
+      <td><input type="text" name="Periodo" id="Periodo"></td>
+    </tr>
+    <tr>
+      <td>Turno </td>
+      <td><label>
+        <input type="radio" name="Turno" value="Vespertino" id="Vespertino">
+        Vespertino</label>
+        <br>
+        <label>
+          <input type="radio" name="Turno" value="Matutino" id="Matutino">
+          Matutino</label>
+        <br>
+        </td>
+        </tr>
+        <tr>
+      <td> <label for="Grupo">Grupo: </label></td>
+      <td><select name="Grupo" id="Grupo">
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+        <option>D</option>
+        <option>E</option>
+      </select></td>
+    </tr>
+     <tr>
+      <td width="13%"><label for="nAlumno">Numero de Alumno </label></td>
+      <td width="87%"><input type="text" name="nAlumno" id="nAlumno"></td>
+    </tr>
+    <tr>
+      <td> <label for="Semestre">Semestre: </label></td>
+      <td><select name="Semestre" id="Semestre">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+      </select></td>
+    </tr>
+     <tr>
+      <td>Creditos: </td>
+      <td><label>
+        <input type="radio" name="Creditos" value="4" id="Creditos_0">
+        4</label>
+        <br>
+        <label>
+          <input type="radio" name="Creditos" value="5" id="Creditos_1">
+      5</label>
+        <br>
+        </td>
+        </tr>
+ 
+   <tr>
+      <td>Horario Lunes </td>
+      <td><label>
+        <input type="radio" name="Lunes" value="7:00-8:40" id="Lunes_0">
+        7:00-8:40</label>
+        <br>
+        <label>
+        <input type="radio" name="Lunes" value="8:45-10:30" id="Lunes_1">
+       8:45-10:30</label>
+        <br>
+        <label>
+        <input type="radio" name="Lunes" value="10:35-12:10" id="Lunes_2">
+        10:35-12:10</label>
+        <br>
+        <label>
+        <input type="radio" name="Lunes" value="12:15-1:55" id="Lunes_3">
+        12:15-1:55</label>
+        <br>
+        </td>
+        </tr>
+    <tr>
+      <td><label for="SalonL">Salon de Clase </label></td>
+      <td><input type="text" name="SalonL" id="SalonL"></td>
+    </tr>
+    
+     <tr>
+      <td>Horario Martes </td>
+      <td><label>
+        <input type="radio" name="Martes" value="7:00-8:40" id="martes_0">
+        7:00-8:40</label>
+        <br>
+        <label>
+        <input type="radio" name="Martes" value="8:45-10:30" id="martes_1">
+       8:45-10:30</label>
+        <br>
+        <label>
+        <input type="radio" name="Martes" value="10:35-12:10" id="martes_2">
+        10:35-12:10</label>
+        <br>
+        <label>
+        <input type="radio" name="Martes" value="12:15-1:55" id="martes_3">
+        12:15-1:55</label>
+        <br>
+        </td>
+        </tr>
+    
+    <tr>
+      <td><label for="SalonM">Salon de Clase </label></td>
+      <td><input type="text" name="SalonM" id="SalonM"></td>
+    </tr>
+    
+     <tr>
+      <td>Horari Miercoles </td>
+      <td><label>
+        <input type="radio" name="Miercoles" value="7:00-8:40" id="miercoles_0">
+        7:00-8:40</label>
+        <br>
+        <label>
+        <input type="radio" name="Miercoles" value="8:45-10:30" id="miercoles_1">
+       8:45-10:30</label>
+        <br>
+        <label>
+        <input type="radio" name="Miercoles" value="10:35-12:10" id="miercoles_2">
+        10:35-12:10</label>
+        <br>
+        <label>
+        <input type="radio" name="Miercoles" value="12:15-1:55" id="miercoles_3">
+        12:15-1:55</label>
+        <br>
+        </td>
+        </tr>
+    <tr>
+      <td><label for="SalonMi">Salon de Clase </label></td>
+      <td><input type="text" name="SalonMi" id="SalonMi"></td>
+    </tr>
+    
+     <tr>
+      <td>Horario Jueves </td>
+      <td><label>
+        <input type="radio" name="Jueves" value="7:00-8:40" id="jueves_0">
+        7:00-8:40</label>
+        <br>
+        <label>
+        <input type="radio" name="Jueves" value="8:45-10:30" id="jueves_1">
+       8:45-10:30</label>
+        <br>
+        <label>
+        <input type="radio" name=Jueves" value="10:35-12:10" id="jueves_2">
+        10:35-12:10</label>
+        <br>
+        <label>
+        <input type="radio" name="Jueves" value="12:15-1:55" id="jueves_3">
+        12:15-1:55</label>
+        <br>
+        </td>
+        </tr>
+    <tr>
+      <td><label for="SalonJ">Salon de Clase </label></td>
+      <td><input type="text" name="SalonJ" id="SalonJ"></td>
+    </tr>
+    
+    <tr>
+      <td><label for="Viernes">Horario Viernes</label></td>
+      <td><input type="text" name="Viernes" id="Viernes"></td>
+    </tr>
+    <tr>
+      <td><label for="SalonV">Salon de Clase </label></td>
+      <td><input type="text" name="SalonV" id="SalonV"></td>
+    </tr>
+     <tr>
+      <td colspan="2" align="center"><input type="submit" name="button" id="button" value="Enviar"></td>
+    </tr>
+  </table>
+             
+       
+  
+  <p><br>
+  </p>
+</form>
+</body>
+</html>

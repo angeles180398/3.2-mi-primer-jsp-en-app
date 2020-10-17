@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+        UPDATE `sabana` SET `ClaveMateria` = 'AED1286' WHERE `sabana`.`ClaveHorario` = '4013'
+
+-->
+
+<html>
+    <head>
+          <link href="prueba.css" rel="stylesheet" type="text/css">
+            <title>Documento sin título</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="editar.jsp" method="get">
+     
+    <table  width="40%">   
+        <tr>
+        <h3>INSERTA LA CLAVE DEL HORARIO QUE DECEAS Editar</h3>
+        <td><label for="ClaveHorario">Clave del Horario: </label></td>
+      <td><input type="text" name="ClaveHorario" id="ClaveHorario"></td>
+    </tr>
+    <tr>
+      <td> <label for="Campo">Capo Para Editar </label></td>
+      <td><select name="Campo" id="Campo">
+        <option>ClaveHorario</option>
+        <option>ClaveMateria</option>
+        <option>claveCarrera</option>
+        <option>Materia</option>
+        <option>Carrera</option>
+        <option>Maestro</option>
+        <option>Periodo</option>
+        <option>Turno</option>
+        <option>Grupo</option>
+        <option>nAlumno</option>
+        <option>Semestre</option>
+        <option>Creditos</option>
+        <option>Lunes</option>
+        <option>SalonL</option>
+        <option>Martes</option>
+        <option>SalonM</option>
+        <option>Miercoles</option>
+        <option>SalonMi</option>
+        <option>Jueves</option>
+        <option>SalonJ</option>
+        <option>Viernes</option>
+        <option>SalonV</option>
+        
+      </select></td>
+    </tr>
+     <tr>
+        <h3>INSERTA EL DATO CORRECTO</h3>
+        <td><label for="Ncampo">Dato</label></td>
+      <td><input type="text" name="Ncampo" id="Ncampo"></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+          <input type="submit" name="button" id="button" value="Entrar">
+      
+      </td>
+      
+    </tr>
+    </table> 
+        </form>
+    </body>
+</html>
